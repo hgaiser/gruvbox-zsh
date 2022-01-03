@@ -6,5 +6,5 @@ Simply download (using your plugin manager or otherwise) and source the plugin t
 
 ## TODO
 
-- [] Allow configuration for dark / light mode.
-- [] Allow configuration for hard / soft mode.
+- [ ] Allow configuration for dark / light mode.
+- [ ] Allow configuration for hard / soft mode.
