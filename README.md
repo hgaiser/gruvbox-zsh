@@ -4,6 +4,8 @@ Zsh plugin that sets colors based on the [Gruvbox theme](https://github.com/morh
 
 Simply download (using your plugin manager or otherwise) and source the plugin to enable these colors.
 
+![example](example.png)
+
 ## TODO
 
 - [ ] Allow configuration for dark / light mode.
