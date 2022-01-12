@@ -13,8 +13,15 @@ function set_color {
 	fi
 }
 
+local black=1d2021
+local white=f9f5d7
+
+# Set default foreground / background colors for terminals that support it.
+printf "\e]10;#$white"
+printf "\e]11;#$black"
+
 # Set terminal colors.
-set_color  0 1d2021 # black
+set_color  0 $black # black
 set_color  1 cc241d # red
 set_color  2 98971a # green
 set_color  3 d79921 # yellow
@@ -29,7 +36,7 @@ set_color 11 fabd2f # bright yellow
 set_color 12 83a598 # bright blue
 set_color 13 d3869b # bright magenta
 set_color 14 8ec07c # bright cyan
-set_color 15 f9f5d7 # white
+set_color 15 $white # white
 # Set colors for 256
 set_color 17 076678 # dark blue
 set_color 22 79740e # dark green
