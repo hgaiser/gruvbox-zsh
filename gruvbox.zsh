@@ -28,15 +28,15 @@ set_color  3 d79921 # yellow
 set_color  4 458588 # blue
 set_color  5 b16286 # magenta
 set_color  6 689d6a # cyan
-set_color  7 928374 # light grey
-set_color  8 282828 # dark grey
+set_color  7 a89984 # light grey
+set_color  8 928374 # dark grey
 set_color  9 fb4934 # bright red
 set_color 10 b8bb26 # bright green
 set_color 11 fabd2f # bright yellow
 set_color 12 83a598 # bright blue
 set_color 13 d3869b # bright magenta
 set_color 14 8ec07c # bright cyan
-set_color 15 $white # white
+set_color 15 ebdbb2 # white
 # Set colors for 256
 set_color 17 076678 # dark blue
 set_color 22 79740e # dark green
